@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giai PT2"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/he_so_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="He so a"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/he_so_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="He so b"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/he_so_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="He so c"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/button_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giai PT" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ket qua: "
+        android:inputType="numberDecimal"
+        />
+
+
+</LinearLayout>
